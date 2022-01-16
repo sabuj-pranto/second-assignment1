@@ -1,0 +1,524 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,
+
+li {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------
+==============================================main end=========================================== 
+--------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+============================================header start=========================================== 
+--------------------------------------------------------------------------------------------------*/
+
+.nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    width: 1170px;
+}
+
+.logo .logo-span {
+    color: #2c5ce0;
+}
+
+.menu-items ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu-items ul li {
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.nav-items ul li a {
+    color: #3a3a3a;
+    margin: 10px 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.nav-items ul li .active {
+    color: #2c5ce0;
+}
+
+.nav-items ul li .icons {
+    font-size: 24px;
+}
+
+.nav-items ul li a:hover {
+    color: #2c5ce0;
+    transition: .3s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+----------------------------------------------header end------------------------------------------- 
+--------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ ------------------------------------------banner css start---------------------------------------- 
+ -------------------------------------------------------------------------------------------------*/
+
+.banner-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.bi-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bi-tittle {
+    font-size: 52px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3em;
+}
+
+.bi-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: .5px;
+}
+
+.explore-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #2c5ce0;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s;
+    letter-spacing: 0;
+    box-shadow: 5px 5px 5px 0px rgba(58, 58, 58, 0.5);
+}
+
+.explore-more .button-icons {
+    font-size: 20px;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+.explore-more:hover {
+    width: 160px;
+    transition: .5s;
+}
+
+.explore-more:hover .button-icons {
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.bi-img {
+    text-align: center;
+}
+.bi-img:hover{
+    width: 120%;
+}
+
+.bi-img img {
+    width: 90%;
+    padding: 50px 0;
+    transform: scale(1);
+    transition: .5s;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------
+ ============================================banner css end======================================== 
+ -------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ ===========================================brands css start======================================= 
+ -------------------------------------------------------------------------------------------------*/
+
+.brand-images {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-top: 2px solid #d5d5d5;
+    border-bottom: 2px solid #d5d5d5;
+    padding: 10px 0;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+ ============================================brands css end======================================== 
+ -------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ =========================================productsds css start======================================
+ -------------------------------------------------------------------------------------------------*/
+
+.product-tittle {
+    padding: 70px 0 0 0;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.products {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.p-items {
+    background: #FFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.p-itmes-img img {
+    width: 100%;
+}
+.p-itmes-img img:hover{
+    width: 150%;
+}
+
+.p-itmes-tittle {
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191f;
+    text-transform: capitalize;
+}
+
+.p-itmes-sub-tittle {
+    font-size: 24px;
+    color: #18191f;
+}
+
+.p-itmes-startbox {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+
+.star ul {
+    display: flex;
+}
+
+.star ul li {
+    color: #FB8200;
+    font-size: 16px;
+}
+
+.star-text {
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.p-itmes-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    padding-right: 150px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+ =========================================productsds css start======================================
+ -------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ ============================================contact css start======================================
+ -------------------------------------------------------------------------------------------------*/
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form .bttn {
+    background-color: #2c5ce0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+form .bttn:hover {
+    background-color: #e02c6e00;
+    color: #2c5ce0;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.cf-img {
+    text-align: right;
+}
+
+.cf-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #2c5ce0;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+ ============================================contact css end======================================= 
+ -------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ ==========================================footer css start======================================== 
+ -------------------------------------------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    color: #fff;
+    background: #0a0826;
+    padding: 50px 0;
+}
+
+.f-span {
+    color: #2c5ce0;
+}
+
+footer .f-icons {
+    text-align: center;
+    
+}
+
+footer .f-icons ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+
+footer .f-icons ul li {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background: #22213c;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+ ============================================footer css end======================================== 
+ -------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+ ===============================================responsive========================================= 
+ -------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    .nav {
+        text-align: center;
+    }
+    .nav-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 1170px;
+    }
+    .nav ul {
+        justify-content: center;
+    }
+    .nav ul li {
+        margin-left: 20px;
+    }
+    .bi-texts {
+        align-items: center;
+        grid-row-start: 2;
+    }
+    .bi-tittle {
+        font-size: 36px;
+    }
+    .bi-img {
+        grid-row-start: 1;
+    }
+    .bi-img img {
+        padding: 10px;
+    }
+    .brand-images {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+    }
+    .banner-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 10px;
+        grid-gap: 0;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .cf-form {
+        grid-row-start: 2;
+        margin-bottom: 20px;
+    }
+    .cf-img {
+        grid-row-start: 1;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .cf-img img {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav {
+        text-align: center;
+    }
+    .nav-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 1170px;
+    }
+    .nav ul {
+        justify-content: center;
+    }
+    .nav ul li {
+        margin-left: 20px;
+    }
+    .bi-texts {
+        align-items: center;
+        grid-row-start: 2;
+    }
+    .bi-tittle {
+        font-size: 36px;
+    }
+    .bi-img {
+        grid-row-start: 1;
+    }
+    .bi-img img {
+        padding: 10px;
+    }
+    .brand-images {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+    }
+    .banner-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 10px;
+        grid-gap: 0;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .cf-form {
+        grid-row-start: 2;
+        margin-bottom: 20px;
+    }
+    .cf-img {
+        grid-row-start: 1;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .cf-img img {
+        text-align: center;
+    }
+}
